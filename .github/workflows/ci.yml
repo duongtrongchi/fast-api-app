@@ -21,7 +21,9 @@ jobs:
 
       - name: Cài đặt PYTHONPATH
         run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
-            #  echo "$PYTHONPATH"
+
+      - name: In python path
+        run: echo "$PYTHONPATH"
 
       - name: Cài đặt dependencies
         run: |
